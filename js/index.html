@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::after,
+        *::before{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            position: absolute;
+            height: 100vh;
+            width: 20vw;
+            background-color: gray;
+            transform: translateX(-300px);
+            transition: .5s;
+        }
+
+        .img_container{
+             position: absolute;
+        }
+
+        .close{
+            display: none;
+            position: relative;
+            z-index: 100;
+        }
+
+        img{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="img_container">
+        <img src="ham.png" alt="" class="ham"width="23px">
+        <img src="close.png" class="close" alt="" width="23px">
+    </div>
+    <header class="header">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id praesentium itaque sint at et perspiciatis amet ipsa aliquam hic, enim nesciunt saepe maxime voluptate possimus dolor est atque voluptates facere exercitationem vero! Excepturi.
+    </header>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, corporis? Qui culpa ex, quia provident doloremque modi fugiat odit inventore reiciendis totam accusantium veritatis laborum. Soluta ab, exercitationem eveniet cumque beatae porro deleniti architecto unde qui perspiciatis dignissimos similique molestias, quo rem iste quam earum, quia tenetur iure illum aspernatur inventore quidem quaerat. Incidunt dicta, id consectetur velit ut ea animi dolore? Dolorum excepturi ad in autem, ullam perspiciatis modi.
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
