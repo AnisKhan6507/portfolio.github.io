@@ -165,7 +165,6 @@ header ul li a:hover{
     to{transform: translateX(0pc);}
 }
     header{
-       display: none;
         height:150vh;
         margin-top: 0;
         position: absolute;
